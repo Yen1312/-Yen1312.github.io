@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <style>
+        .custom-button {
+          background-color: #6a1b9a;
+          color: white;
+        }
+    </style>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg bbg header navbar-light custom-navbar">
+      <div class="container-lg">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active undlink" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link undlink" href="aboutme.html">About me</a>
+            <a class="nav-link undlink" href="gallery.html">Gallery</a>
+            <a class="nav-link undlink" href="calculator.html">Rate Calculator</a>
+            <a class="nav-link undlink " href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container mt-5">
+        <h2>Contact</h2>
+        <form class="contact-form">
+          <div class="mb-3">
+            <label for="name-input" class="form-label">Name and Last Name</label>
+            <input type="text" class="form-control" id="name-input"  />
+            <div id="name-error" class="error-message"></div>
+          </div>
+          <div class="mb-3">
+            <label for="email-input" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email-input"  />
+            <div id="email-error" class="error-message"></div>
+          </div>
+          <div class="mb-3">
+            <label for="message-input" class="form-label">Message</label>
+            <textarea class="form-control" id="message-input" rows="4" ></textarea>
+            <div id="message-error" class="error-message"></div>
+          </div>
+          <button type="submit" class="btn btn-primary custom-button">Submit</button>
+        </form>
+      </section>
+
+    <script src="contact.js"></script>
+  </body>
+</html>
