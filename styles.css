@@ -1,5 +1,5 @@
 .custom-navbar {
-  background-color: #6a1b9a;  /* this is a purple color */
+  background-color: #6a1b9a;  /* navbar color */
 }
 
 .custom-navbar .navbar-nav .nav-link {
@@ -12,7 +12,7 @@
   padding: 0 !important;
   border-radius: 50% !important;
   background-color: #6a1b9a !important;
-}
+} /* buttons */
 
 body {
   background-color: black;
@@ -36,7 +36,7 @@ a {
   color: #800080 !important;
   text-decoration: none !important;
   overflow: hidden;
-}
+} 
 
 a::before {
   content: '';
@@ -59,7 +59,7 @@ a .bi-github,
 a .bi-linkedin {
   color: white !important;
 }
-
+/* links */
 .carousel-controls {
   display: flex;
   align-items: center;
@@ -95,7 +95,7 @@ a .bi-linkedin {
   height: 100%;
   object-fit: contain;
 }
-
+/* slider */
 .rotate {
   transform: rotate(180deg);
 }
@@ -109,7 +109,7 @@ a .bi-linkedin {
   flex: 1;
   margin-right: 20px;
 }
-
+/* section about me */
 @media (max-width: 767px) {
   .about-content {
     flex-direction: column;
@@ -120,7 +120,7 @@ a .bi-linkedin {
     margin-bottom: 20px;
   }
 }
-
+/* mobile version */
 .work-tiles {
   display: block;
   justify-content: space-between;
@@ -169,7 +169,7 @@ a .bi-linkedin {
   background-color: #6a1b9a;
   border-radius: 5px;
 }
-
+/* gallery */
 .error-message {
   color: red;
 }
@@ -216,12 +216,13 @@ a .bi-linkedin {
   border-radius: 5px;
   cursor: pointer;
 }
+/* popup i error */
 
 .custom-button {
-  background-color: #6a1b9a; /* Set the background color to purple */
-  color: #ffffff; /* Set the text color to white */
+  background-color: #6a1b9a; 
+  color: #ffffff; 
 }
 
 .custom-button:hover {
-  background-color: #4a106a; /* Set a darker background color on hover */
+  background-color: #4a106a; 
 }
